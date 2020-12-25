@@ -1,0 +1,25 @@
+.social-list {
+    @include reset-list;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-list__item {
+    &:not(:last-child) {
+        margin-right: 5px;
+    }    
+}
+
+.social-list__link {
+    display: block;
+    padding: 5px;
+    path {
+        transition: fill 0.3s;
+    }
+    &:hover, &:active {
+        path {
+            fill: #ffffff;
+        }
+    }
+}
