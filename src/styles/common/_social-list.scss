@@ -14,12 +14,8 @@
 .social-list__link {
     display: block;
     padding: 5px;
-    path {
-        transition: fill 0.3s;
-    }
+    transition: transform 0.3s;
     &:hover, &:active {
-        path {
-            fill: #ffffff;
-        }
+        transform: scale(1.2);
     }
 }
