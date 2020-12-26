@@ -13,12 +13,35 @@
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
         background-image: url(../img/bg/hero_bg_mobile@4x.jpg);
     }
+    @include media-tablet {
+        background-image: url(../img/bg/hero_bg_desktop.jpg);
+        @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+            background-image: url(../img/bg/hero_bg_desktop@2x.jpg);
+        }
+    }
+    @include media-laptop {
+        background-image: url(../img/bg/hero_bg_desktop@2x.jpg);
+        @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+            background-image: url(../img/bg/hero_bg_desktop@4x.jpg);
+        }
+    } 
 }
 
 .hero__subtitle {   
     margin-top: 10px; 
     font-size: 26px;
-    line-height: 39px;
+    line-height: 39px; 
+    max-width: 315px;   
+    @include media-tablet {
+        font-size: 32px;
+        line-height: 42px;
+        max-width: 385px;
+    }
+    @include media-laptop {
+        font-size: 48px;
+        line-height: 60px;
+        max-width: 520px;
+    } 
 }
 
 .hero__btns-wrapper {

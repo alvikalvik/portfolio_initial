@@ -26,6 +26,9 @@
     &--active {
         left: 0;
     }
+    @media (min-width: 430px) {
+        width: 345px;
+    }
 }
 
 .menu__close {
@@ -56,6 +59,9 @@
 .menu__list {
     @include reset-list;
     padding-left: 35px;
+    @media (min-width: 430px) {
+        padding-left: 40px;
+    }
 }
 
 .menu__item {
@@ -93,6 +99,9 @@
     transition: color 0.3s;
     &:hover, &:active {
         color: #dddddd;
+    }
+    @media (min-width: 430px) {
+        font-size: 24px;
     }
 }
 
