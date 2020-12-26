@@ -52,6 +52,12 @@
 
 .about__divider {
     margin-top: 15px;
+    @include media-tablet {
+        margin-top: 20px;       
+    }
+    @include media-laptop {
+        margin-top: 25px;               
+    }
 }
 
 .about__text {
