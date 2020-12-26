@@ -95,6 +95,41 @@
         </ul>
     </aside>
 
+    <section class="about">
+        <div class="container">
+            <picture class="about__picture">    
+                <source srcset="img/Photo_mobile.jpg, img/Photo_mobile@2x.jpg 1.5x, img/Photo_mobile@4x.jpg 3x" media="(max-width: 1199px)">             
+                <source srcset="img/Photo.jpg, img/Photo@2x.jpg 1.5x, img/Photo@4x.jpg 3x" media="(min-width: 1200px)">
+                               
+                <img src="img/Photo_mobile.jpg" srcset="img/Photo_mobile.jpg 1x, img/Photo_mobile@2x.jpg 1.5x" alt="моя фотография" class="about__photo">
+            </picture>    
+            <div class="about__info">
+                <h2 class="title title--left about__title">Про меня</h2>
+                <div class="subtitle about__subtitle">Меня зовут Александра</div>
+                <div class="divider divider--left about__divider"></div>
+                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>     
+            </div>        
+            
+            <ul class="about__skills-list">
+                <li class="about__skill-item">
+                    <div class="about__skill-icon"><img src="img/icons/web-development-icon.svg" alt="web-development" class="about__skill-icon-img"></div>
+                    <h3 class="about__skill-title">Web-разработка</h3>
+                    <div class="about__skill-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                </li>
+                <li class="about__skill-item">
+                    <div class="about__skill-icon"><img src="img/icons/mobile-dev-icon.svg" alt="mobile-dev" class="about__skill-icon-img about__skill-icon-img--mobile-dev"></div>
+                    <h3 class="about__skill-title">Разработка приложений</h3>
+                    <div class="about__skill-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                </li>
+                <li class="about__skill-item">
+                    <div class="about__skill-icon"><img src="img/icons/design-icon.svg" alt="design" class="about__skill-icon-img"></div>
+                    <h3 class="about__skill-title">UI/UX Design</h3>
+                    <div class="about__skill-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
 
     <script src="js/main.min.js"></script>    
 </body>
