@@ -1,10 +1,10 @@
 // import modules
-import testModule from './testmodule';
+import runMenu from './menu';
 
 
 // run modules
 
 window.addEventListener('DOMContentLoaded', () => {
     // console.log('DOM fully loaded and parsed');
-    testModule();
+    runMenu();
 });
