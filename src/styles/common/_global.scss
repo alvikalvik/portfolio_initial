@@ -27,6 +27,9 @@ img {
         padding: 0;
         width: 720px;
     }
+    @media (min-width: 992px) {
+        width: 960px;
+    }
     @include media-laptop {
         width: 1140px;
     } 
