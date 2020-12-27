@@ -1,5 +1,6 @@
 // import modules
 import runMenu from './menu';
+import skills from './skills';
 
 
 // run modules
@@ -7,4 +8,5 @@ import runMenu from './menu';
 window.addEventListener('DOMContentLoaded', () => {
     // console.log('DOM fully loaded and parsed');
     runMenu();
+    skills();
 });
