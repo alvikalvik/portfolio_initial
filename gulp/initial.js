@@ -5,6 +5,6 @@ const htmlValidator = require('gulp-w3c-html-validator')
 module.exports = function initial() {
     return gulp.src('src/**/*.html')
         .pipe(plumber())
-        .pipe(htmlValidator())
+        // .pipe(htmlValidator())
         .pipe(gulp.dest('build'))
 }
