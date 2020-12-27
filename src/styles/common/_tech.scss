@@ -1,4 +1,4 @@
-.skills {
+.tech {
     padding-top: 50px; 
     @include media-tablet {
         padding-top: 70px;       
@@ -8,11 +8,11 @@
     }
 }
 
-.skills__subtitle {
+.tech__subtitle {
     text-align: center;
 }
 
-.skills__divider {
+.tech__divider {
     margin-top: 15px;
     @include media-tablet {
         margin-top: 20px;       
@@ -22,7 +22,7 @@
     }
 }
 
-.skills__list {
+.tech__list {
     @include reset-list;
     padding-top: 20px; 
     display: grid;
@@ -39,24 +39,24 @@
     }
 }
 
-.skills__item {
+.tech__item {
     width: 270px;
     min-height: 270px;
     padding: 30px 30px 25px 30px;
     border: 1px solid #000000;
 }
 
-.skills__item-icon-wrapper {
+.tech__item-icon-wrapper {
     height: 65px;
 }
 
-.skills__item-icon {
+.tech__item-icon {
     display: block;
     margin: 0 auto 0 0;
     max-height: 65px;
 }
 
-.skills__item-title {
+.tech__item-title {
     margin-top: 20px;
     font-weight: bold;
     font-size: 14px;
@@ -64,7 +64,7 @@
     color: #000000;
 }
 
-.skills__item-descr {
+.tech__item-descr {
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
