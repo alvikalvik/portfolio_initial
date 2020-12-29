@@ -28,6 +28,7 @@
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, 280px);
+    grid-template-rows: repeat(auto-fit, 280px);
     gap: 20px;
     @include media-tablet {
         padding-top: 40px; 
@@ -56,6 +57,10 @@
     display: block;
     width: 100%;
     height: 100%;
+    transition: filter .3s;
+    &:hover, &:active {
+        filter: contrast(110%) grayscale(10%) drop-shadow(0 0 3px black);
+    }
 }
 
 .works__item-img {
