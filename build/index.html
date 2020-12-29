@@ -403,20 +403,20 @@
                 <form action="#" class="contacts__form">
                     <div class="contacts__form-input-wrapper">
                         <label for="contacts-name" class="contacts__form-label">Ваше имя</label>
-                        <input name="name" id="contacts-name" type="text" class="contacts__form-input" placeholder="Иван">
+                        <input name="name" id="contacts-name" type="text" class="contacts__form-input" placeholder="Иван" required>
                     </div>
                     <div class="contacts__form-input-wrapper">
                         <label for="contacts-email" class="contacts__form-label">Ваша почта</label>
-                        <input name="email" id="contacts-email" type="email" class="contacts__form-input" placeholder="example@gmail.com">
+                        <input name="email" id="contacts-email" type="email" class="contacts__form-input" placeholder="example@gmail.com" required>
                     </div>
 
                     <div class="contacts__form-input-wrapper contacts__form-input-wrapper--textarea">
                         <label for="contacts-message" class="contacts__form-label">Ваше сообщение</label>
-                        <textarea name="message" id="contacts-message" class="contacts__form-textarea"></textarea>                    
+                        <textarea name="message" id="contacts-message" class="contacts__form-textarea" required></textarea>                    
                     </div>
 
                     <div class="contacts__confidence-wrapper">                    
-                        <input name="confidence" id="contacts-confidence" type="checkbox" class="contacts__form-confidence">
+                        <input name="confidence" id="contacts-confidence" type="checkbox" class="contacts__form-confidence" required>
                         <label for="contacts-confidence" class="contacts__form-confidence-label">Я согласен(а) с <a href="#" class="contacts__form-confidence-link">политикой конфиденциальности</a></label>                    
                     </div>
 
